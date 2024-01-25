@@ -9,8 +9,80 @@
 </head>
 
 <body>
-  <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
-<script type="module" src="./javascripts/main.js"></script>
+  <header class="clearfix">
+    <h1 class="pull-left">My Blog</h1>
+    <img class="hamburger"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png"
+      alt="hamburger">
+    <p class="pull-right search-bar vanish">Type to search</p>
+  </header>
+
+  <nav>
+    <div class="menu vanish clearfix">
+      <ul>
+        <li><a href="">Home |</a></li>
+        <li><a href=""> Recent Posts |</a></li>
+        <li><a href=""> Old Posts |</a></li>
+        <li><a href=""> Contact Us |</a></li>
+        <li><a href="">About Us </a></li>
+      </ul>
+    </div>
+    <hr class="hide-away">
+  </nav>
+
+  <section class="blog-post">
+    <div class="clearfix">
+      <img class="blog-photo"
+        src="https://images.unsplash.com/photo-1706059924488-29e13a25b07b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D"
+        alt="A bridge at night">
+      <h2>First Post with Image</h2>
+      <h3>By Paige Redlin; Jan. 24th 2024</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deleniti voluptatum doloremque quasi rerum
+        ea debitis nobis cupiditate possimus cumque, incidunt officia dolores reprehenderit, eveniet impedit optio.
+        Provident, dolores mollitia.</p>
+      <p class="vanish">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit iusto voluptatum aliquid
+        impedit! Tempore quos sunt quibusdam cumque accusantium, ducimus praesentium magnam doloribus quisquam corrupti
+        earum laboriosam facilis rerum fuga.</p>
+      <br>
+      <div class="vanish read-more pull-left"><a href="">Read More</a></div>
+    </div>
+  </section>
+
+
+  <section class="blog-post">
+    <div class="clearfix">
+      <hr>
+      <img class="blog-photo"
+        src="https://images.unsplash.com/photo-1706038513444-e08c8633c01e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDh8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D"
+        alt="A mountain range with a pink sky">
+      <h2>Second Post with Image</h2>
+      <h3>By Paige Redlin; Jan. 24th 2024</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam tempora iste non totam provident impedit
+        mollitia esse corrupti, est qui laboriosam dolore quidem ducimus odit aliquam incidunt error cum quae.</p>
+      <p class="vanish">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consequatur soluta.
+        Veritatis et exercitationem laborum tempora magni ducimus, doloremque laboriosam asperiores unde aut earum.
+        Quos, dolores aspernatur. Beatae, officia odit?</p>
+      <br>
+      <div class="vanish read-more pull-left"><a href="">Read More</a></div>
+    </div>
+  </section>
+  <hr>
+
+  <div class="container">
+    <div class="button-item button pull-left"><a href="">Prev</a></div>
+    <div class="button-item center">1/4</div>
+    <div class="button-item button pull-right"><a href="">Next</a></div>
+  </div>
+
+  <footer>
+    <div class="clearfix">
+      <div class="pull-left vanish social">Facebook</div>
+      <div class="pull-left vanish social">Twitter</div>
+      <div class="pull-left vanish social">Google+</div>
+      <div class="copyright-right">&copy; Copyright Paige Redlin 2024</div>
+    </div>
+  </footer>
+  <script type="module" src="./javascripts/main.js"></script>
 </body>
+
 </html>
